@@ -30,3 +30,6 @@ venv/
 # 系统文件
 Thumbs.db
 .DS_Store
+
+# 演示工具（不进仓库）
+cloudflared.exe
