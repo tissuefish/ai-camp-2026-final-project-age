@@ -1,0 +1,18 @@
+{
+  "description": "AI 年龄估计演示小程序（前端调用电脑端模型服务）",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.0.0",
+  "appid": "touristappid",
+  "projectname": "age-estimator-demo",
+  "condition": {}
+}

@@ -1,0 +1,4 @@
+{
+  "desc": "AI 年龄估计演示",
+  "rules": [{ "action": "allow", "page": "*" }]
+}

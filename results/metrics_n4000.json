@@ -1,0 +1,12 @@
+{
+  "tag": "n4000",
+  "train_n": 4000,
+  "test_n": 1000,
+  "img_size": 64,
+  "epochs": 2,
+  "seed": 42,
+  "mean_age_train": 33.36,
+  "baseline_mae": 15.773,
+  "cnn_mae": 16.317,
+  "improvement": -0.544
+}

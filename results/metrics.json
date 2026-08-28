@@ -1,0 +1,11 @@
+{
+  "train_n": 3000,
+  "test_n": 1000,
+  "img_size": 64,
+  "epochs": 2,
+  "seed": 42,
+  "mean_age_train": 33.2,
+  "baseline_mae": 15.676,
+  "cnn_mae": 15.665,
+  "improvement": 0.011
+}

@@ -1,0 +1,6 @@
+/* app.wxss */
+page {
+  background: linear-gradient(160deg, #eef2ff, #f8fafc);
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  min-height: 100vh;
+}

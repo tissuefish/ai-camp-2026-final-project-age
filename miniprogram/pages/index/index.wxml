@@ -1,0 +1,25 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="card">
+    <view class="title">📷 AI 年龄估计</view>
+    <view class="sub">上传一张人脸照片，看看模型估计的年龄</view>
+
+    <view class="preview" bindtap="chooseImage">
+      <image wx:if="{{previewPath}}" src="{{previewPath}}" mode="aspectFill" class="preview-img" />
+      <text wx:else class="placeholder">点击选择照片</text>
+    </view>
+
+    <button class="btn primary" bindtap="chooseImage">选择照片</button>
+    <button class="btn" disabled="{{!ready}}" bindtap="predict">开始估计</button>
+
+    <view class="error" wx:if="{{error}}">{{error}}</view>
+
+    <view class="result" wx:if="{{age !== null}}">
+      <view class="label">估计年龄</view>
+      <view class="age">{{age}} 岁</view>
+      <view class="note" wx:if="{{note}}">{{note}}</view>
+    </view>
+
+    <view class="footer">教学演示 · 模型运行在电脑端 · 结果不用于任何真实决定</view>
+  </view>
+</view>
