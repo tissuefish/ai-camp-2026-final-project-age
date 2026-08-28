@@ -1,0 +1,14 @@
+{
+  "milestone": "FINAL",
+  "team": "好难起名组",
+  "members": [
+    "请填写成员姓名"
+  ],
+  "repository_url": "https://github.com/tissuefish/ai-camp-2026-final-project-age",
+  "run_command": "python app.py",
+  "test_command": "python test_predict.py",
+  "report": "report.md",
+  "presentation": "presentation.pptx",
+  "presentation_minutes": 10,
+  "student_confirmed_no_secrets": false
+}
