@@ -1,0 +1,32 @@
+# 原始数据与下载的压缩包：永远不提交（含人脸照片，涉及隐私）
+data/raw/
+*.zip
+
+# 私人照片与演示测试图（含人脸，不提交）
+个人.jpg
+demo_selfie.jpg
+*.jpg.chip.jpg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-version
+
+# 密钥与环境变量（API key 只放环境变量，绝不提交）
+.env
+.env.*
+*.key
+*.pem
+
+# 模型权重与缓存（体积大，评阅者按 README 重新训练/下载）
+*.pt
+*.pth
+*.onnx
+.cache/
+.ipynb_checkpoints/
+
+# 系统文件
+Thumbs.db
+.DS_Store
